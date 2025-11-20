@@ -1,0 +1,140 @@
+---
+import "../styles/global.css";
+---
+
+<section class="py-12 bg-gradient-to-b from-gray-100 to-gray-50 text-gray-800">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900">EQUIPO</h1>
+
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center pt-20"
+    >
+      <!-- Tarjeta de miembro -->
+      <div
+        class="group relative bg-white rounded-2xl shadow-lg w-80 transition-transform transform hover:scale-105 hover:shadow-2xl"
+      >
+        <!-- Imagen sobresaliente -->
+        <div class="absolute -top-14 left-1/2 transform -translate-x-1/2">
+          <img
+            class="w-28 h-28 rounded-full border-4 border-white object-cover shadow-md"
+            src="https://res.cloudinary.com/dcyr5qkhg/image/upload/v1724176306/samples/ecommerce/leather-bag-gray.jpg"
+            alt="Miguel Huarita"
+          />
+        </div>
+
+        <!-- Contenido de la tarjeta -->
+        <div class="p-6 text-center mt-16">
+          <h2 class="text-xl font-semibold text-gray-900">
+            Ing. Miguel Huarita Castellon
+          </h2>
+          <p class="mt-2 text-gray-600">GERENTE</p>
+        </div>
+
+        <!-- Íconos sociales -->
+        <div
+          class="flex justify-center space-x-4 p-4 border-t border-gray-200 bg-gray-50"
+        >
+          <!-- Email -->
+          <a
+            href="#"
+            class="text-gray-500 hover:text-blue-600 transition-colors"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+              ></path>
+              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+              ></path>
+            </svg>
+          </a>
+          <!-- Twitter -->
+          <a
+            href="#"
+            class="text-gray-500 hover:text-blue-400 transition-colors"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 50 50"
+              fill="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                d="M50.0625 10.4375 C48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"
+              ></path>
+            </svg>
+          </a>
+          <!-- LinkedIn -->
+          <a
+            href="#"
+            class="text-gray-500 hover:text-blue-700 transition-colors"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 32 32"
+              class="w-5 h-5"
+            >
+              <path
+                d="M8.268 28h-5.805v-18.694h5.805zM5.362 6.756c-1.856 0-3.362-1.538-3.362-3.394s1.505-3.362 3.362-3.362 3.362 1.505 3.362 3.362c0 1.856-1.506 3.394-3.362 3.394zM29.994 28h-5.792v-9.1c0-2.169-0.044-4.95-3.018-4.95-3.018 0-3.481 2.356-3.481 4.794v9.256h-5.799v-18.694h5.567v2.55h0.081c0.775-1.469 2.668-3.019 5.492-3.019 5.875 0 6.955 3.869 6.955 8.894v10.269z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Repetir las tarjetas de los demás miembros igual que arriba -->
+      <!-- Luis Huarita -->
+      <div
+        class="group relative bg-white rounded-2xl shadow-lg w-80 transition-transform transform hover:scale-105 hover:shadow-2xl"
+      >
+        <div class="absolute -top-14 left-1/2 transform -translate-x-1/2">
+          <img
+            class="w-28 h-28 rounded-full border-4 border-white object-cover shadow-md"
+            src="https://res.cloudinary.com/dcyr5qkhg/image/upload/v1724176306/samples/ecommerce/leather-bag-gray.jpg"
+            alt="Luis Huarita"
+          />
+        </div>
+        <div class="p-6 text-center mt-16">
+          <h2 class="text-xl font-semibold text-gray-900">
+            Ing. Luis Angel Huarita Castellon
+          </h2>
+          <p class="mt-2 text-gray-600">Ingeniero de Procesos</p>
+        </div>
+        <div
+          class="flex justify-center space-x-4 p-4 border-t border-gray-200 bg-gray-50"
+        >
+          <!-- íconos -->
+        </div>
+      </div>
+
+      <!-- Angie Viscarra -->
+      <div
+        class="group relative bg-white rounded-2xl shadow-lg w-80 transition-transform transform hover:scale-105 hover:shadow-2xl"
+      >
+        <div class="absolute -top-14 left-1/2 transform -translate-x-1/2">
+          <img
+            class="w-28 h-28 rounded-full border-4 border-white object-cover shadow-md"
+            src="https://res.cloudinary.com/dcyr5qkhg/image/upload/v1724176306/samples/ecommerce/leather-bag-gray.jpg"
+            alt="Angie Viscarra"
+          />
+        </div>
+        <div class="p-6 text-center mt-16">
+          <h2 class="text-xl font-semibold text-gray-900">
+            Ing. Angie Viscarra Huarita
+          </h2>
+          <p class="mt-2 text-gray-600">INGENIERA EN SISTEMAS</p>
+        </div>
+        <div
+          class="flex justify-center space-x-4 p-4 border-t border-gray-200 bg-gray-50"
+        >
+          <!-- íconos -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
